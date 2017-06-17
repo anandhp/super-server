@@ -1,0 +1,24 @@
+{
+  "name": "super-server",
+  "version": "1.0.0",
+  "description": "Simple demo server using Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandhp/super-server.git"
+  },
+  "author": "Anand Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandhp/super-server/issues"
+  },
+  "homepage": "https://github.com/anandhp/super-server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "mongoose": "^4.10.6"
+  }
+}
