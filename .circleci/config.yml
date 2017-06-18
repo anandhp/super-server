@@ -1,0 +1,10 @@
+ version: 2
+ jobs:
+   build:
+     working_directory: ~/super-server
+     docker:
+       - image: circleci/node:4.8.3
+     steps:
+       - checkout
+       - run: echo "Starting build..."
+       - run: echo "Done!"
